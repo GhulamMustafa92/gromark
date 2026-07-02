@@ -1,7 +1,7 @@
 import cane1 from "../assets/cane1.jpg";
 import cane2 from "../assets/cane2.jpg";
 import Rating from "react-rating";
-import saleBg from "../assets/saleBg.jpg";
+import salebg from "../assets/salebg.jpg";
 import { FaStar, FaRegStar } from "react-icons/fa";
 
 const saleProduct = [
@@ -303,7 +303,7 @@ export default function Sales() {
             ))}
           </div>
           <div
-            style={{ backgroundImage: `url(${saleBg})` }}
+            style={{ backgroundImage: `url(${salebg})` }}
             className="relative bg-cover bg-center rounded-2xl hidden md:flex flex-col justify-center p-8 min-h-[420px] overflow-hidden"
           >
             {/* Dark overlay */}
